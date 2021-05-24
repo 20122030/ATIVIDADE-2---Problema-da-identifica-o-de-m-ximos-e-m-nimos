@@ -27,6 +27,32 @@ int minVet(int *vet, int tam) {
  return (vet[tam-1]);
  }
  }
-  
+  int main()
+ {
+
+ int vet[5], i, max, min, contador = 0;
+
+ for (i=0; i<5; i++) {
+ cout << "Informe um valor inteiro do vetor:" << endl;
+ cin >>  vet[i];
+
+
+ }
+ while (contador < 5)
+ {
+    cout <<  ","<<vet[contador];
+    contador++;
+
+ }
+
+ max = maxVet(vet, 5);
+ min = minVet(vet, 5);
+ cout << "Maior:" << max << endl;
+ cout << "Menor:" << min << endl;
+ cout << "o vetor e:" <<vet << endl;
+
+
+ }
+
 
 }
