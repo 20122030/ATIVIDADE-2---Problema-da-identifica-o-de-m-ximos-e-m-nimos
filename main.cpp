@@ -49,7 +49,7 @@ int minVet(int *vet, int tam) {
  min = minVet(vet, 5);
  cout << "Maior:" << max << endl;
  cout << "Menor:" << min << endl;
- cout << "o vetor e:" <<vet << endl;
+ 
 
 
  }
